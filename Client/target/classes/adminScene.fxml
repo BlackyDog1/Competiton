@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminController">
+   <children>
+      <Label layoutX="135.0" layoutY="111.0" prefHeight="65.0" prefWidth="315.0" text="Do you want to login as an Administrator?">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id = "yesButton" layoutX="84.0" layoutY="246.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="115.0" text="Yes">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id = "noButton" layoutX="348.0" layoutY="246.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="115.0" text="No">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

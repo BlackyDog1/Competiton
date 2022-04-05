@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="843.0" prefWidth="1036.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdministratorController">
+   <children>
+      <Label layoutX="23.0" layoutY="14.0" prefHeight="40.0" prefWidth="120.0" text="Team Name:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="teamTextField" layoutX="164.0" layoutY="22.0" />
+      <Label layoutX="23.0" layoutY="61.0" prefHeight="40.0" prefWidth="120.0" text="User Name:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userTextField" layoutX="164.0" layoutY="69.0" />
+      <Label layoutX="23.0" layoutY="114.0" prefHeight="40.0" prefWidth="120.0" text="Stage Name:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="stageTextField" layoutX="164.0" layoutY="122.0" />
+      <Button fx:id="addUserToTeam" layoutX="22.0" layoutY="171.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="292.0" text="Add User to Team">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="addUserToStage" layoutX="22.0" layoutY="243.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="292.0" text="Add User to Stage">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="createTeam" layoutX="23.0" layoutY="308.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="292.0" text="Create Team">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="createStage" layoutX="22.0" layoutY="372.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="292.0" text="Create Stage">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteTeam" layoutX="22.0" layoutY="439.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="292.0" text="Delete Team">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteUser" layoutX="22.0" layoutY="509.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="292.0" text="Delete User">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="confirmScore" layoutX="23.0" layoutY="646.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="292.0" text="Confirm Score">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="sendNotification" layoutX="23.0" layoutY="713.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="292.0" text="Send Notification">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="viewRankings" layoutX="22.0" layoutY="776.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="292.0" text="View Rankings">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteStage" layoutX="23.0" layoutY="576.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="292.0" text="Delete Stage">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <ListView fx:id="listView" layoutX="344.0" layoutY="22.0" prefHeight="728.0" prefWidth="650.0" />
+      <Button fx:id="refresh" layoutX="356.0" layoutY="776.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="292.0" text="RefreshListView">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
